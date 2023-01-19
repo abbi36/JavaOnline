@@ -60,4 +60,22 @@ public class Lesson7 {
         charlie ^= beta;
         System.out.println(charlie);
     } // end method
+
+    // Increment operator
+    public void exampleIncrement(){
+        int home = 10, car, bike;
+        car = home++;
+        System.out.println(car);
+        bike = ++home;
+        System.out.println(bike);
+    } //end method
+
+    //decrement operator
+    public void exampleDecrement() {
+        int bottle = 4, mug, pitcher;
+        mug = bottle--;
+        System.out.println(mug);
+        pitcher = --bottle;
+        System.out.println(pitcher);
+    } // end method
 } //end

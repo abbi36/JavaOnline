@@ -1,20 +1,29 @@
 package com.Lesson5;
 
-import com.fundamentals.lessons.Lesson5;
-import com.fundamentals.lessons.Lesson6;
-import com.fundamentals.lessons.Lesson7;
+import com.fundamentals.lessons.*;
 
 public class Main {
 
     public static void main(String[] args) {
-
-       /*
-         System.out.println("Hello World");
-         lesson5Examples();
-        */
+         //System.out.println("Hello World");
+         //lesson5Examples();
        // lesson6Examples();
-        lesson7Example();
+        //lesson7Example();
+        lesson8Examples();
     } //end main method
+
+    public static void lesson8Examples() {
+        Lesson8 myLesson8 = new Lesson8();
+        myLesson8.basicIfExample(5,5);
+        myLesson8.basicIfElseExample(12,17);
+        myLesson8.basicIfElseChainExample(42);
+        myLesson8.basicIfAndOrExample(65);
+        myLesson8.basicSwitchExample(2);
+        myLesson8.basicWhileExample();
+        myLesson8.basicDoWhileExample();
+        myLesson8.basicForLoopExample();
+        myLesson8.basicBranchExample();
+    }
 
     public static void lesson7Example() {
         Lesson7 myLesson7 = new Lesson7();
@@ -23,6 +32,8 @@ public class Main {
         //myLesson7.addTwoNumbers();
         myLesson7.exampleAssignment1();
         myLesson7.exampleAssignment2();
+        myLesson7.exampleIncrement();
+        myLesson7.exampleDecrement();
     }
     public static void lesson6Examples() {
         Lesson6 myLesson6 = new Lesson6();

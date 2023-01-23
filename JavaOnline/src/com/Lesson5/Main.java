@@ -5,12 +5,21 @@ import com.fundamentals.lessons.*;
 public class Main {
 
     public static void main(String[] args) {
-         //System.out.println("Hello World");
-         //lesson5Examples();
-       // lesson6Examples();
+        //System.out.println("Hello World");
+        //lesson5Examples();
+        //lesson6Examples();
         //lesson7Example();
-        lesson8Examples();
+        //lesson8Examples();
+        lesson9Examples();
     } //end main method
+
+    public static void lesson9Examples() {
+        Lesson9 myLesson9 = new Lesson9();
+        myLesson9.basicIntArray();
+        myLesson9.basicTwoDimensionalArray();
+        myLesson9.basicThreeDimensionalArray();
+        myLesson9.basicThreeDimensionalArray();
+    }
 
     public static void lesson8Examples() {
         Lesson8 myLesson8 = new Lesson8();

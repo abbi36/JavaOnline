@@ -10,8 +10,17 @@ public class Main {
         //lesson6Examples();
         //lesson7Example();
         //lesson8Examples();
-        lesson9Examples();
+        //lesson9Examples();
+        lesson10Examples();
     } //end main method
+
+    public static void lesson10Examples() {
+        Lesson10 myLesson10 = new Lesson10();
+        Lesson10Extended myExtended = new Lesson10Extended();
+        //myLesson10.myDefaultMethod(); // method is default outside this package
+        myExtended.methodFromOtherClass();
+       // myLesson10.myProtectedMethod(); // method is protected and is not subclassed outside package
+    }
 
     public static void lesson9Examples() {
         Lesson9 myLesson9 = new Lesson9();
@@ -19,6 +28,7 @@ public class Main {
         myLesson9.basicTwoDimensionalArray();
         myLesson9.basicThreeDimensionalArray();
         myLesson9.basicThreeDimensionalArray();
+        myLesson9.basicJaggedArray();
     }
 
     public static void lesson8Examples() {

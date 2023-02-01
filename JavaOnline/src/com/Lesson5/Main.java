@@ -1,5 +1,6 @@
 package com.Lesson5;
 
+import com.fundamentals.lessons.House;
 import com.fundamentals.lessons.*;
 
 public class Main {
@@ -17,8 +18,8 @@ public class Main {
 
 
     public static void lesson11Examples() {
-        House myHouse = new House();
-        House myOtherHouse = new House("Red");
+        House.House myHouse = new House.House();
+        House.House myOtherHouse = new House.House("Red");
 
     }
 

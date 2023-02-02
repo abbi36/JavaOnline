@@ -43,10 +43,16 @@ public class House {
         return doorColor;
     }
 
+    public void doorOpenClose(String doorColor) {
+        System.out.println("The open door is "+doorColor);
+    }
+
     public void setDoorColor(String doorColor) {
         this.doorColor = doorColor;
     }
 
-    public void doorOpenClose() { }
+    public void doorOpenClose() {
+        System.out.println("My house door is closed");
+    }
 
 }

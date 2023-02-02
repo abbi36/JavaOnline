@@ -1,5 +1,6 @@
 package com.Lesson5;
 
+import com.fundamentals.Condo;
 import com.fundamentals.lessons.House;
 import com.fundamentals.lessons.*;
 
@@ -13,13 +14,25 @@ public class Main {
         //lesson8Examples();
         //lesson9Examples();
         //lesson10Examples();
-        lesson11Examples();
+        //lesson11Examples();
+        lesson13Examples();
+
     } //end main method
 
 
+    public static void lesson13Examples() {
+        House myHouse = new House("blue");
+        Condo myCondo = new Condo("medium");
+        myHouse.doorOpenClose(myHouse.getDoorColor());
+        myCondo.doorOpenClose(myCondo.getDoorColor());
+        House myNewHouse = new Condo();
+        myNewHouse.doorOpenClose();
+    }
+
+
     public static void lesson11Examples() {
-        House.House myHouse = new House.House();
-        House.House myOtherHouse = new House.House("Red");
+        House myHouse = new House();
+        House myOtherHouse = new House("Red");
 
     }
 

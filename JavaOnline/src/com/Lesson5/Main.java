@@ -1,6 +1,7 @@
 package com.Lesson5;
 
 import com.fundamentals.Condo;
+import com.fundamentals.exercises.Lesson14Exercise;
 import com.fundamentals.lessons.House;
 import com.fundamentals.lessons.*;
 
@@ -28,9 +29,20 @@ public class Main {
         //lesson10Examples();
         //lesson11Examples();
         //lesson13Examples();
-        lesson14Examples();
+        //lesson14Examples();
+        //lesson14Exercise();
+        lesson15Examples();
 
     } //end main method
+
+    public static void lesson15Examples() {
+            int[] myInt = {1,2,3,4};
+            Lesson15Base myBase = new Lesson15Sub(10, myInt, "turned off");
+            Lesson15Sub mySub = new Lesson15Sub(10, myInt, "turned on");
+            mySub.receiveCall();
+            mySub.takePicture();
+        }
+
 
     public static void lesson14Examples() {
         // Can not change value of a final

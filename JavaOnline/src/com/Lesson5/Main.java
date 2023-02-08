@@ -1,6 +1,7 @@
 package com.Lesson5;
 
 import com.fundamentals.Condo;
+import com.fundamentals.DaysOfTheWeek;
 import com.fundamentals.exercises.Lesson14Exercise;
 import com.fundamentals.lessons.House;
 import com.fundamentals.lessons.*;
@@ -31,9 +32,32 @@ public class Main {
         //lesson13Examples();
         //lesson14Examples();
         //lesson14Exercise();
-        lesson15Examples();
-
+        //lesson15Examples();
+        //waterBirds();
+        lesson16Examples();
     } //end main method
+
+    public static void lesson16Examples() {
+        Lesson16 myLesson16 = new Lesson16();
+        myLesson16.showEnum();
+        myLesson16.myFavoriteFlavor(Lesson16.IceCreamFlavors.ROCKY_ROAD);
+
+        DaysOfTheWeek d1[] = DaysOfTheWeek.values();
+        for(DaysOfTheWeek day: d1) {
+            System.out.println(day + " at index "+day.ordinal());
+        }
+
+        DaysOfTheWeek d3 = DaysOfTheWeek.WED;
+        d3.enumMethod();
+
+        Lesson16Lab[] labs = Lesson16Lab.values();
+        for(Lesson16Lab lab : labs) {
+            System.out.println("Labrador Color: " +lab.name() + " registration code: "+
+                    lab.getAction());
+        }
+    }
+
+
 
     public static void lesson15Examples() {
             int[] myInt = {1,2,3,4};

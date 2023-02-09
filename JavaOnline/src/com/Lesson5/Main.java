@@ -2,8 +2,7 @@ package com.Lesson5;
 
 import com.fundamentals.Condo;
 import com.fundamentals.DaysOfTheWeek;
-import com.fundamentals.exercises.Lesson14Exercise;
-import com.fundamentals.lessons.House;
+import com.fundamentals.exercises.Lesson16Exercise;
 import com.fundamentals.lessons.*;
 
 public class Main {
@@ -21,21 +20,21 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        //System.out.println("Hello World");
-        //lesson5Examples();
-        //lesson6Examples();
-        //lesson7Example();
-        //lesson8Examples();
-        //lesson9Examples();
-        //lesson10Examples();
-        //lesson11Examples();
-        //lesson13Examples();
-        //lesson14Examples();
-        //lesson14Exercise();
-        //lesson15Examples();
-        //waterBirds();
-        lesson16Examples();
+        //lesson17Examples();
     } //end main method
+
+    public static void lesson17Examples() {
+       Lesson17 myLesson17 = new Lesson17();
+//        myLesson17.exampleArrayList1();
+//        myLesson17.exampleArrayList2();
+          myLesson17.exampleHashset();
+    }
+
+    public static void lesson16Exercises() {
+        Lesson16Exercise myLesson16Exercise = new Lesson16Exercise();
+        myLesson16Exercise.favoriteGenre(Lesson16Exercise.movieGenres.THRILLER);
+        myLesson16Exercise.enumMovie();
+    }
 
     public static void lesson16Examples() {
         Lesson16 myLesson16 = new Lesson16();

@@ -20,8 +20,15 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        //lesson17Examples();
+        lesson18Examples();
     } //end main method
+
+    public static void lesson18Examples() {
+        Lesson18 myLesson18 = new Lesson18();
+       // myLesson18.exampleException();
+        myLesson18.myArrayException();
+    }
+
 
     public static void lesson17Examples() {
        Lesson17 myLesson17 = new Lesson17();

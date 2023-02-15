@@ -3,6 +3,7 @@ package com.Lesson5;
 import com.fundamentals.Condo;
 import com.fundamentals.DaysOfTheWeek;
 import com.fundamentals.exercises.Lesson16Exercise;
+import com.fundamentals.exercises.Lesson18Exercises;
 import com.fundamentals.lessons.*;
 
 public class Main {
@@ -20,14 +21,20 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        lesson18Examples();
+        //lesson18Examples();
+        lesson18Exercises();
     } //end main method
+
+    public static void lesson18Exercises() {
+        Lesson18Exercises myLesson18Exercises = new Lesson18Exercises();
+        myLesson18Exercises.leapYear();
+    }
 
     public static void lesson18Examples() {
         Lesson18 myLesson18 = new Lesson18();
        // myLesson18.exampleException();
         myLesson18.myArrayException();
-    }
+   }
 
 
     public static void lesson17Examples() {
